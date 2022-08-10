@@ -44,9 +44,8 @@ for item in trs :
   df.loc[idx] = lt
   print(lt)
   #print(f'{no}, {writer}, {em},{netizen}, {author[:-8]}, {author[-8:]}')
-  
-;
 
+   
 df.columns = ['번호', '영화명', '평점', '리부', '아이디', '작성일']
 
 st.title('네이버 영화')
